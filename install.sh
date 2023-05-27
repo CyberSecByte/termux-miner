@@ -14,7 +14,7 @@ if ! cmake -DWITH_HWLOCK=OFF ..; then
     echo "Error: CMake configuration failed"
     exit 1
 else
-    cmake -DWITH_HWLOCK=OFF
+    cmake -DWITH_HWLOCK=OFF ..
 fi
 # compile
 echo "Compiling now"

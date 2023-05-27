@@ -12,7 +12,7 @@ Run the following command to install the basic requirements, compile, and instal
 
 ### ⚙️ Configuration
 
-Obtain the POOL:PORT information from Nanopool.
+Obtain the POOL:PORT information from [Nanopool.](https://nanopool.org/)
 
 Edit the run.sh file and add your information:
 
@@ -22,11 +22,11 @@ Edit the run.sh file and add your information:
     MYADDRESS=📬
     COINNAME=💰
 
-Replace POOL= with your obtained pool address.
-Replace PORT= with your obtained port number.
-Replace MYADDRESS= with your cryptocurrency receiving address.
-Replace COINNAME= with the name of your chosen coin (e.g., if you are mining Monero, put "monero").
+- Replace POOL= with your obtained pool address.
+- Replace PORT= with your obtained port number.
+- Replace MYADDRESS= with your cryptocurrency receiving address.
+- Replace COINNAME= with the name of your chosen coin (e.g., if you are mining Monero, put "monero").
 
 Complete the configuration and start mining by running the following command:
 
-bash run.sh
+    bash run.sh
