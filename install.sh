@@ -10,11 +10,11 @@ mkdir xmrig/build
 cd xmrig/build
 # cmake
 echo "Running CMake"
-if ! cmake -DWITH_HWLOCK=OFF ..; then
+if ! cmake -DWITH_HWLOC=OFF ..; then
     echo "Error: CMake configuration failed"
     exit 1
 else
-    cmake -DWITH_HWLOCK=OFF ..
+    cmake -DWITH_HWLOC=OFF ..
 fi
 # compile
 echo "Compiling now"
